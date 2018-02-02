@@ -154,9 +154,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: #333;
-  background: url("../img/cork-wallet.png"), #428bca;
-  background: url("../img/cork-wallet.png"), -webkit-linear-gradient(to left, #428bca, #dc2430);
-  background: url("../img/cork-wallet.png"), linear-gradient(to left, #428bca, #dc2430);
+  background: url("../img/cork-wallet.png");
 }
 
 header.masthead .header-content {
