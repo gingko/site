@@ -1,77 +1,241 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
   <head>
-<style>
-body {
-  background: #f1f8e9;
-}
 
-#hero-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-#hero-container {
-  font-size: 120%;
-}
+    <title>Gingko</title>
 
-#download-buttons {
-  margin-bottom: 20px;
-}
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-h1, h2, h3, h4, h5 {
-  font-family: sans-serif;
-}
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-.btn {
-  font-family: sans-serif;
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.428571429;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
-}
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
-.btn-download {
-  background-color: #8cc63f;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-}
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
 
-img.screenshot {
-  max-width: 75%;
-  border-radius: 8px;
-}
-</style>
   </head>
-<body>
-  <div id="hero-container">
-    <h1>Let Your Writing Flow</h1>
-    <p>Quickly draft your work into <strong>an outline made of cards</strong>.<br>
-    See its structure <em>and</em> content at the same time.</p>
-    <div id="download-buttons">
-      <h4>Download for:</h4>
-      <a class="btn btn-download" href="https://s3.dualstack.us-east-1.amazonaws.com/gingko-updates/Gingko%20Setup%200.8.3.exe">Windows</a>
-      <a class="btn btn-download" href="https://s3.dualstack.us-east-1.amazonaws.com/gingko-updates/Gingko-0.8.3-mac.zip">Mac</a>
-      <a class="btn btn-download" href="https://s3.dualstack.us-east-1.amazonaws.com/gingko-updates/gingko-client-0.8.3-x86_64.AppImage">Linux</a>
-      <p>Try it free for 30 days <em>of usage</em>.<br><small>(only days that you actually use the app are counted).</small></p>
-      <p>A full license, for all platforms, costs $45.<br>Discounts available.</p>
-    </div>
-    <img class="screenshot" src="https://bucket.mlcdn.com/a/326/326183/images/003c78dff7705f16855286a33b44543c65e764f3.png"/>
-  </div>
-</body>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <!--nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Gingko</a>
+      </div>
+    </nav-->
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1>Worry less, write more.</h1>
+              <h2 class="mb-5">Gingko lets you untangle your thoughts as you write them.</h2>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Free Trial<div><small>(Windows, Mac, and Linux)</small></div></a>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div>
+              <div class="device-mockup portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="img/screenshot-1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <p class="font-weight-light">"<strong>My default place to write</strong>: dump ideas, move to structure, flesh em out, rearrange, edit, export."</p>
+              <h5>Osbert Lancaster</h5>
+              <h6 class="mb-3">Sustainability events facilitator,<br>Director of Natural Change.</h6>
+              <img class="img-fluid rounded-circle" style="width:100px;" src="img/osbertlancaster.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <p class="font-weight-light" style="font-size: 150%">"I can recommend gingko — very cool [tool] for structuring prose. <strong>Got me through</strong> the third act of the last novel..."</p>
+              <h5>Michael Marshall Smith</h5>
+              <h6 class="mb-3"><strong>New York Times best-selling author</strong></h6>
+              <img class="img-fluid rounded-circle" src="img/michaelmarshallsmith.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <p class="font-weight-light">"It took away so much of my writing anxiety that it <strong>got me through from undergrad to a Ph.D.</strong> now."</p>
+              <h5>Kristi K.</h5>
+              <h6 class="mb-3">Ph.D. Candidate in Film Studies</h6>
+              <img class="img-fluid rounded-circle" style="width: 100px;" src="img/kristik.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2>Download Free Trial</h2>
+            <div class="badges">
+              <a class="badge-link" href="https://s3.dualstack.us-east-1.amazonaws.com/gingko-updates/Gingko%20Setup%200.8.3.exe"><img src="img/windows-logo.svg" alt=""><div>Windows</div></a>
+              <a class="badge-link" href="https://s3.dualstack.us-east-1.amazonaws.com/gingko-updates/Gingko-0.8.3-mac.zip"><img src="img/apple-logo.svg" alt=""><div>Mac</div></a>
+              <a class="badge-link" href="https://s3.dualstack.us-east-1.amazonaws.com/gingko-updates/gingko-client-0.8.3-x86_64.AppImage"><img src="img/linux-logo.svg" alt=""><div>Linux</div></a>
+            </div>
+            <p>Try Gingko free for <strong>30 days <em>of usage</em></strong>.
+            <br><small>(only days you actually use the app are counted)
+            </p>
+            <p>A full license, for all your machines, costs $45.
+            <br>Discounts available.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Unlimited Features, Unlimited Fun</h2>
+          <p class="text-muted">Check out what you can do with this app theme!</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-screen-smartphone text-primary"></i>
+                    <h3>Device Mockups</h3>
+                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-camera text-primary"></i>
+                    <h3>Flexible Use</h3>
+                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-present text-primary"></i>
+                    <h3>Free to Use</h3>
+                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-lock-open text-primary"></i>
+                    <h3>Open Source</h3>
+                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section-->
+
+    <!--section class="cta">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Stop waiting.<br>Start building.</h2>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section-->
+
+    <!--section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>We
+          <i class="fa fa-heart"></i>
+          new friends!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section-->
+
+    <footer>
+      <div class="container">
+        <p>&copy; Gingko Inc. 2018. All Rights Reserved.</p>
+        <!--ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul-->
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
+  </body>
+
 </html>
