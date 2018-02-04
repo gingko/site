@@ -22,6 +22,7 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
@@ -53,7 +54,9 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/screenshot-1.png" class="img-fluid" alt="">
+                    <a href="img/screenshot-template-academic.png" data-toggle="lightbox">
+                      <img src="img/screenshot-template-academic.png" class="img-fluid" alt="">
+                    </a>
                   </div>
                 </div>
               </div>
@@ -236,6 +239,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+
+    <!-- ekko-lighbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    </script>
+
 
   </body>
 
