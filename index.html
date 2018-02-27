@@ -26,7 +26,7 @@
     <link href="css/ekko-lightbox.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
 
   </head>
 
@@ -123,15 +123,16 @@
       </div>
     </section>
 
-    <section class="download bg-primary text-center" id="comparison">
+    <section class="comparison text-center" id="comparison">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2>Upgrading Gingko</h2>
-            <p>Gingko 2 is in active development, and is still missing some features.
-            <br>If you need to, you can still sign up for Gingko 1.
+            <h3>Upgrading Gingko</h3>
+            <p>Gingko 2 is in active development and is still missing some features.
+            <br>You can still sign up for the older version, if you need to.
+            <br><small>(you can transfer your data across at any time)</small>
             </p>
-            <table class="table table-comparison">
+            <table class="table table-comparison table-hover table-striped">
               <thead>
                 <tr>
                   <th></th>
@@ -141,135 +142,50 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Feature 1</td>
-                  <td>×</td>
-                  <td>✓</td>
+                  <td>Work offline</td>
+                  <td><span class="compare-x">×</span></td>
+                  <td><span class="compare-y">✓</span></td>
                 </tr>
                 <tr>
-                  <td>Feature 2</td>
-                  <td>×</td>
-                  <td>✓</td>
+                  <td>Full version history</td>
+                  <td><span class="compare-x">×</span></td>
+                  <td><span class="compare-y">✓</span></td>
                 </tr>
                 <tr>
-                  <td>Feature 3</td>
-                  <td>×</td>
-                  <td>✓</td>
+                  <td>Online Collaboration,<br>Search within tree,<br>LaTeX support</td>
+                  <td><span class="compare-y">✓</span></td>
+                  <td>not yet</td>
                 </tr>
                 <tr>
-                  <td>Feature 4</td>
-                  <td>×</td>
-                  <td>✓</td>
+                  <td>Sync across devices</td>
+                  <td><span class="compare-y">✓</span></td>
+                  <td>manually for now</td>
+                </tr>
+                  <td>Free Trial</td>
+                  <td>100 cards/month</td>
+                  <td>30 days of usage</td>
                 </tr>
                 <tr>
-                  <td>Feature 5</td>
-                  <td>×</td>
-                  <td>✓</td>
+                  <td>Pay What You Want Pricing</td>
+                  <td>$2 &rarr; $21<br>monthly subscription</td>
+                  <td>$15 &rarr; $90<br>one-time payment</td>
                 </tr>
                 <tr>
+                  <td>Ongoing Development</td>
+                  <td><span class="compare-x">×</span></td>
+                  <td><span class="compare-y">✓</span></td>
+                </tr>
+                <tfoot>
                   <td></td>
-                  <td><a href="https://gingkoapp.com/signup" class="btn btn-outline btn-xl">Signup</a><br>or <a href="https://gingkoapp.com/login" style="color: #353; text-decoration: underline;">login</a></td>
-                  <td><a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download</a></td>
-                </tr>
+                  <td><a href="https://gingkoapp.com/signup" class="btn btn-table btn-l">Signup</a><br>or <a href="https://gingkoapp.com/login" style="color: #1c3969; text-decoration: underline;">login</a></td>
+                  <td><a href="#download" class="btn btn-table btn-l js-scroll-trigger">Download</a><br>&nbsp;</td>
+                </tfoot>
               </tbody>
             </table>
           </div>
         </div>
       </div>
     </section>
-
-    <!--section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
-          <p class="text-muted">Check out what you can do with this app theme!</p>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
-                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
-                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section-->
-
-    <!--section class="cta">
-      <div class="cta-content">
-        <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section-->
-
-    <!--section class="contact bg-primary" id="contact">
-      <div class="container">
-        <h2>We
-          <i class="fa fa-heart"></i>
-          new friends!</h2>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-facebook">
-            <a href="#">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-google-plus">
-            <a href="#">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section-->
 
     <footer>
       <div class="container">

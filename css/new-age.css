@@ -456,3 +456,68 @@ section.testimonials img.img-fluid {
 section.testimonials strong {
   font-weight: bold;
 }
+
+section.comparison {
+  padding: 60px 0px;
+}
+
+.btn-l {
+  font-size: 10px;
+  padding: 5px 12px;
+  margin: 5px;
+}
+
+.btn-table {
+  background: hsl(217, 58%, 26%);
+  border-color: hsla(209, 61%, 23%, 1);
+  color: hsla(209, 100%, 80%, 1);
+  box-shadow: 0px 7px 1px -5px hsl(212, 15%, 59%);
+}
+.btn-table:hover {
+  color: hsla(209, 100%, 90%, 1);
+  box-shadow: 0px 8px 1px -5px hsl(212, 15%, 59%);
+}
+
+.table {
+  width: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.table-comparison td {
+  vertical-align: middle;
+}
+
+.table td {
+  border-top: 1px solid #a9b8c7;
+}
+.table thead th {
+  border-bottom: 2px solid #94a4b3;
+}
+.table th {
+  border-top: none;
+}
+
+td, th {
+  position: relative;
+}
+td:not(:first-child):hover::before,
+th:not(:first-child):hover::before {
+  content: "";
+  position: absolute;
+  background-color: #d6fda4;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
+span.compare-x {
+  font-size: 140%;
+  font-weight: bold;
+}
+span.compare-y {
+  font-size: 140%;
+  font-weight: bold;
+}
