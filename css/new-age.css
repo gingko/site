@@ -515,7 +515,8 @@ th:not(:first-child):hover::before {
 }
 
 span.compare-x {
-  font-size: 140%;
+  color: darkred;
+  font-size: 150%;
   font-weight: bold;
 }
 span.compare-y {
