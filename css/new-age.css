@@ -384,6 +384,14 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
+section.faq {
+  padding: 40px;
+}
+
+section.faq h2 {
+  font-size: 30px;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
