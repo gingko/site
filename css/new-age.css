@@ -233,6 +233,20 @@ section.download .badges .badge-link img {
   height: 60px;
 }
 
+#install-instructions-win {
+  display: none;
+  position: relative;
+  box-shadow: inset 1px 2px 2px hsla(0,0%,0%,0.3);
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 24px 10px;
+  margin-bottom: 40px;
+}
+#install-instructions-win img {
+  width: 100%;
+  max-width: 400px;
+}
+
 @media (min-width: 768px) {
   section.download .badges .badge-link {
     display: inline-block;
