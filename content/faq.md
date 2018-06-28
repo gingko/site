@@ -4,7 +4,11 @@ title: "FAQ"
 date: 2018-06-28T11:58:26-04:00
 
 ---
-
+<style>
+hr {
+  max-width: 100%;
+}
+</style>
 
 
 Does the offline version sync to the online one?
