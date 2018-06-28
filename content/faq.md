@@ -12,7 +12,7 @@ Does the offline version sync to the online one?
 
 No, they don't sync yet, but they will in a future version. Here's the plan:
 
-![](img/gingko-version-timelines.png)
+![](../img/gingko-version-timelines.png)
 
 See the next two questions on how to move data between the online and offline versions.
 
@@ -26,7 +26,7 @@ How do I export from the desktop to the web version?
 1.  In the desktop version menu, go to "**File > Export JSON...**"
 2.  In the online version, go to "**my gingko trees > New Tree**".
 3.  Select "Import JSON".  
-    ![](img/gingkoapp-import-json.png)
+    ![](../img/gingkoapp-import-json.png)
 
 * * *
 
@@ -36,9 +36,9 @@ How do I import from the web to the desktop version?
 ----------------------------------------------------
 
 1.  In the web version, go to the menu at top right and click "**Export...**"  
-    ![](img/gingkoapp-export-menu.png)
+    ![](../img/gingkoapp-export-menu.png)
 2.  Select "**Structured text (JSON)**", and then click "**Download File**"  
-    ![](img/gingkoapp-export-settings.png)
+    ![](../img/gingkoapp-export-settings.png)
 3.  In the desktop version menu, go to "**File > Import JSON...**" and select the file you downloaded
 
 * * *
