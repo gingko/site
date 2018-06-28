@@ -1,0 +1,37 @@
+    <footer>
+      <div class="container">
+        <p>&copy; Gingko Inc. 2018. All Rights Reserved.</p>
+        <!--ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul-->
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ "/js/jquery.min.js" | relURL }}"></script>
+    <script src="{{ "/js/bootstrap.bundle.min.js" | relURL }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ "/js/jquery.easing.min.js" | relURL }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ "/js/new-age.min.js" | relURL }}"></script>
+
+    <!-- ekko-lighbox -->
+    <script src="{{ "/js/ekko-lightbox.min.js" | relURL }}"></script>
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    </script>
+  </body>
+</html>
