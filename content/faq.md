@@ -1,14 +1,23 @@
----
++++
+title = "FAQ"
+date = 2018-06-28T11:58:26-04:00
+aliases = "/faq.html"
++++
 
-title: "FAQ"
-date: 2018-06-28T11:58:26-04:00
-
----
 <style>
 hr {
   max-width: 100%;
+  margin: 25px 0;
+}
+img {
+  width: 100%;
+  max-width: 600px;
 }
 </style>
+
+# FAQ
+
+* * *
 
 
 Does the offline version sync to the online one?
