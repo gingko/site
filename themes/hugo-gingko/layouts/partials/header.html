@@ -36,9 +36,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+            {{ range .Site.Menus.mainmenu }}
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/faq">FAQ</a>
+              <a class="nav-link js-scroll-trigger" href="{{ .URL }}">{{ .Name }}</a>
             </li>
+            {{ end }}
           </ul>
         </div>
       </div>
