@@ -1,7 +1,6 @@
 ---
 title: "FAQ"
 date: 2018-06-28T11:58:26-04:00
-aliases: "/faq.html"
 menu:
   mainmenu:
     weight: 999
