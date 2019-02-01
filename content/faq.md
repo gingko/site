@@ -25,11 +25,13 @@ img {
 Does the offline version sync to the online one?
 ------------------------------------------------
 
-No, they don't sync yet, but they will in a future version. Here's the plan:
+No, they don't sync yet, but they will in a future version. Here's the plan*:
 
 ![](../img/gingko-version-timelines.png)
 
 See the next two questions on how to move data between the online and offline versions.
+
+\* *Note: I'm a little behind schedule on v2 online.*
 
 * * *
 
