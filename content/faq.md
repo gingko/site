@@ -1,9 +1,6 @@
 ---
 title: "FAQ"
 date: 2018-06-28T11:58:26-04:00
-menu:
-  mainmenu:
-    weight: 999
 ---
 
 <style>

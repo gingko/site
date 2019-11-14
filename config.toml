@@ -2,3 +2,8 @@ baseURL = "https://gingko.io/"
 languageCode = "en-us"
 title = ""
 theme = "hugo-gingko"
+[menu]
+  [[menu.mainmenu]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "https://gingko.freshdesk.com/support/home"
