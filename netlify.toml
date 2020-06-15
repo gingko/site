@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/download/win"
+  to = "https://github.com/gingko/client/releases/download/v2.4.15/Gingko-Setup-2.4.15.exe"
+
+[[redirects]]
+  from = "/download/macos"
+  to = "https://github.com/gingko/client/releases/download/v2.4.15/Gingko-2.4.15.dmg"
+
+[[redirects]]
+  from = "/download/linux"
+  to = "https://github.com/gingko/client/releases/download/v2.4.15/Gingko-2.4.15.AppImage"
