@@ -16,9 +16,9 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="gingko-version-timelines.svg"
-   inkscape:export-filename="/home/adriano/code/learn/gingko/site/img/gingko-version-timelines.png"
+   inkscape:export-filename="/home/adriano/code/gingko/site/static/img/gingko-version-timelines.png"
    inkscape:export-xdpi="118.73"
    inkscape:export-ydpi="118.73">
   <defs
@@ -207,17 +207,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="219.41932"
-     inkscape:cy="907.39559"
+     inkscape:cx="276.77848"
+     inkscape:cy="915.27245"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-grids="true"
-     inkscape:window-width="1920"
+     inkscape:window-width="1916"
      inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="1104"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -233,6 +233,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.67308336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9000001;stroke-dasharray:0.67308341, 0.67308341;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 380.90782,209.57895 v 51.42221"
+       id="path4261-0-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9000001;stroke-dasharray:0.8,0.8;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m 209.28572,189.29077 0,72.64286"
@@ -266,75 +272,79 @@
        sodipodi:nodetypes="ccccccccccccccccsccccccc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.81762505px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="79.9254"
        y="119.85355"
-       id="text4221"
-       sodipodi:linespacing="125%"><tspan
+       id="text4221"><tspan
          sodipodi:role="line"
          id="tspan4223"
          x="79.9254"
-         y="119.85355">Gingko v1 - online</tspan></text>
+         y="119.85355"
+         style="font-size:11.81762505px;line-height:1.25">Gingko v1 - Web App</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.81762505px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="252.1058"
        y="179.78578"
-       id="text4221-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text4221-0"><tspan
          sodipodi:role="line"
          id="tspan4223-0"
          x="252.1058"
-         y="179.78578">Gingko v2 - desktop</tspan></text>
+         y="179.78578"
+         style="font-size:11.81762505px;line-height:1.25">Gingko v2 - Desktop</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.81762505px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="252.17453"
        y="228.01114"
-       id="text4221-0-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text4221-0-0"><tspan
          sodipodi:role="line"
          id="tspan4223-0-4"
          x="252.17453"
-         y="228.01114">Gingko v2 - online</tspan></text>
+         y="228.01114"
+         style="font-size:11.81762505px;line-height:1.25">Gingko v2 - Web App</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="286.09903"
-       y="276.1535"
-       id="text4221-0-9-8"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="288.46658"
+       y="275.43921"
+       id="text4221-0-9-8"><tspan
          sodipodi:role="line"
          id="tspan4442"
-         x="286.09903"
-         y="276.1535">2019:</tspan><tspan
+         x="288.46658"
+         y="275.43921"
+         style="font-size:7.5px;line-height:1.25">3:</tspan><tspan
          sodipodi:role="line"
          id="tspan4444"
-         x="286.09903"
-         y="285.5285">Online v1</tspan><tspan
+         x="288.46658"
+         y="284.81421"
+         style="font-size:7.5px;line-height:1.25">v1 Web App</tspan><tspan
          sodipodi:role="line"
          id="tspan4446"
-         x="286.09903"
-         y="294.9035">Retired</tspan></text>
+         x="288.46658"
+         y="294.18921"
+         style="font-size:7.5px;line-height:1.25">Retired</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="207.52759"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="210.36864"
        y="275.43921"
-       id="text4221-0-9-8-1"
-       sodipodi:linespacing="125%"><tspan
+       id="text4221-0-9-8-1"><tspan
          sodipodi:role="line"
          id="tspan4436"
-         x="207.52759"
-         y="275.43921">Q4 2018:</tspan><tspan
+         x="210.36864"
+         y="275.43921"
+         style="font-size:7.5px;line-height:1.25">2:</tspan><tspan
          sodipodi:role="line"
          id="tspan4438"
-         x="207.52759"
-         y="284.81421">Online v2</tspan><tspan
+         x="210.36864"
+         y="284.81421"
+         style="font-size:7.5px;line-height:1.25">v2 Web App</tspan><tspan
          sodipodi:role="line"
          id="tspan4440"
-         x="207.52759"
-         y="294.18921">Planned</tspan></text>
+         x="210.36864"
+         y="294.18921"
+         style="font-size:7.5px;line-height:1.25">Released</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
        d="m 60.104076,261.41276 470.226014,0"
@@ -349,33 +359,31 @@
        y="103.07135" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.81762505px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="134.92128"
-       y="277.49631"
-       id="text4221-0-9-3-2"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="136.34181"
+       y="275.34033"
+       id="text4221-0-9-3-2"><tspan
          sodipodi:role="line"
-         x="134.92128"
-         y="277.49631"
+         x="136.34181"
+         y="275.34033"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         id="tspan4359-3-9">2017:</tspan><tspan
+         id="tspan4359-3-9">1:</tspan><tspan
          sodipodi:role="line"
-         x="134.92128"
-         y="286.87131"
+         x="136.34181"
+         y="284.71533"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         id="tspan4406-0">Desktop v2</tspan><tspan
+         id="tspan4406-0">v2 Desktop</tspan><tspan
          sodipodi:role="line"
-         x="134.92128"
-         y="296.24631"
+         x="136.34181"
+         y="294.09033"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
          id="tspan4434-5">Relesed</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.81762505px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="151.56332"
        y="148.80685"
-       id="text4221-0-9-3-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text4221-0-9-3-8"><tspan
          sodipodi:role="line"
          x="151.56332"
          y="148.80685"
@@ -388,20 +396,108 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.81762505px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="316.70697"
-       y="202.83202"
-       id="text4221-0-9-3-8-8"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="393.04626"
+       y="202.49719"
+       id="text4221-0-9-3-8-8"><tspan
          sodipodi:role="line"
-         x="316.70697"
-         y="202.83202"
+         x="393.04626"
+         y="202.49719"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
          id="tspan5552-3-0">Sync</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80923659px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker6012);marker-end:url(#marker6088)"
-       d="m 304.56853,209.91377 0,-18.85311"
+       d="M 380.90782,209.57895 V 190.72584"
        id="path5427-6-5"
        inkscape:connector-curvature="0" />
+    <circle
+       id="path3942"
+       cx="135.60268"
+       cy="189.8622"
+       r="6.6964283"
+       style="fill:#ffffff;stroke-width:0.9375;stroke:#000000;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="135.64662"
+       y="192.54289"
+       id="text4221-0-9-3-2-3"><tspan
+         sodipodi:role="line"
+         x="135.64662"
+         y="192.54289"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1px"
+         id="tspan4434-5-5">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="382.63922"
+       y="275.43921"
+       id="text4221-0-9-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan4442-5"
+         x="382.63922"
+         y="275.43921"
+         style="font-size:7.5px;line-height:1.25;stroke-width:1px">4:</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4446-2"
+         x="382.63922"
+         y="284.81421"
+         style="font-size:7.5px;line-height:1.25;stroke-width:1px">Sync between v2</tspan><tspan
+         sodipodi:role="line"
+         x="382.63922"
+         y="294.18921"
+         style="font-size:7.5px;line-height:1.25;stroke-width:1px"
+         id="tspan4864">Desktop &amp; Web App</tspan></text>
+    <circle
+       id="path3942-1"
+       cx="208.81747"
+       cy="221.3539"
+       r="6.6964283"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.9375;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="208.86142"
+       y="224.03459"
+       id="text4221-0-9-3-2-3-2"><tspan
+         sodipodi:role="line"
+         x="208.86142"
+         y="224.03459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1px"
+         id="tspan4434-5-5-7">2</tspan></text>
+    <circle
+       id="path3942-1-0"
+       cx="286.47293"
+       cy="132.80772"
+       r="6.6964283"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.9375;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="286.51688"
+       y="135.48842"
+       id="text4221-0-9-3-2-3-2-9"><tspan
+         sodipodi:role="line"
+         x="286.51688"
+         y="135.48842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1px"
+         id="tspan4434-5-5-7-3">3</tspan></text>
+    <circle
+       id="path3942-1-0-6"
+       cx="369.21735"
+       cy="199.80211"
+       r="6.6964283"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.9375;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="369.20819"
+       y="202.4828"
+       id="text4221-0-9-3-2-3-2-9-0"><tspan
+         sodipodi:role="line"
+         x="369.20819"
+         y="202.4828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1px"
+         id="tspan4434-5-5-7-3-6">4</tspan></text>
   </g>
 </svg>
