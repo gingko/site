@@ -6,4 +6,8 @@ theme = "hugo-gingko"
   [[menu.mainmenu]]
     identifier = "faq"
     name = "FAQ"
-    url = "https://gingko.freshdesk.com/support/home"
+    url = "https://docs.gingkowriter.com"
+  [[menu.mainmenu]]
+    identifier = "login"
+    name = "Login"
+    url = "https://app.gingkowriter.com/login"
