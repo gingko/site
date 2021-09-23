@@ -540,3 +540,49 @@ span.compare-y {
   font-size: 140%;
   font-weight: bold;
 }
+
+/* Old New sliders */
+
+#old-new-container {
+  display: flex;
+}
+.old-new-column {
+  width: 25%;
+  text-align: center;
+}
+#vert-slider-1 {
+  width: 50%;
+}
+
+.old-new-column img {
+  height: 13rem;
+}
+.splide--ttb>.splide__arrows .splide__arrow--prev, .splide--ttb>.splide__track>.splide__arrows .splide__arrow--prev {
+  display: none;
+}
+.splide--ttb>.splide__arrows .splide__arrow--next, .splide--ttb>.splide__track>.splide__arrows .splide__arrow--next {
+    top: auto;
+    bottom: -3em;
+}
+#vert-slider-2.splide--ttb>.splide__pagination {
+    right: -2.5em;
+}
+
+#vert-slider-2 .splide__arrows {
+  visibility: hidden;
+}
+#vert-slider-2.arrows-enabled .splide__arrows {
+  visibility: visible;
+}
+
+#vert-slider-2.doubt {
+  opacity: 0.4;
+  filter: blur(2px);
+}
+#vert-slider-2.doubt::after {
+  content: '?';
+  position: absolute;
+  font-size: 10rem;
+  top: 2rem;
+  left: 6rem;
+}

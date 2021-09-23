@@ -5,7 +5,7 @@
         <div class="row h-100">
           <div class="col-lg-5 my-auto">
             <div class="header-content mx-auto">
-              <h1>Worry less,<br>write more.</h1>
+              <h1>Writing,<br>without the overwhelm</h1>
               <h2 class="mb-5">Gingko lets you untangle your thoughts as you write them.</h2>
               <a href="https://app.gingkowriter.com/signup" class="btn btn-outline btn-xl js-scroll-trigger">Start Writing</a>
             </div>
@@ -30,6 +30,45 @@
         </div>
       </div>
     </header>
+
+    <section>
+      <div class="container">
+        <div id="old-new-container">
+          <div class="old-new-column">
+            <div>
+              <h3>The Starting Point</h3>
+              <p><img src="img/web-notes.png"/></p>
+              <p>Notes &amp; Ideas<br><small>On paper, digital, or in your head</small></p>
+            </div>
+          </div>
+          <div id="vert-slider-1" class="splide old-new-column">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <h3>The Old Way</h3>
+                  <p><img src="img/old-computer.png"/></p>
+                  <p><strike>Glorified Typewriters</strike>Word Processors<br><small>Practically unchanged since the 80s</small></p>
+                </li>
+                <li class="splide__slide"><h3>The New Way</h3><p><img src="img/screenshot-alien-screenplay.png"/></p></li>
+              </ul>
+            </div>
+          </div>
+          <div id="vert-slider-2" class="splide old-new-column doubt">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide"><h3>Novel First Draft</h3>
+                  <p>
+                    <img src="img/lili-badger-first-draft.jpg"/>
+                  </p>
+                </li>
+                <li class="splide__slide"><h3>Thesis First Draft</h3></li>
+                <li class="splide__slide"><h3>Academic Paper First Draft</h3></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="testimonials text-center bg-light">
       <div class="container">
@@ -74,4 +113,25 @@
       </div>
     </section>
 
+    <script>
+      let sliderOneOptions = { direction: 'ttb', type: 'loop', autoplay: true, pagination: false, interval: 4000, height : '20rem'};
+      let splideOne = new Splide( "#vert-slider-1", sliderOneOptions).mount();
+
+      let sliderTwoOptions = { direction: 'ttb', type: 'loop', pagination : false, height : '20rem'};
+      let splideTwo = new Splide( "#vert-slider-2", sliderTwoOptions).mount();
+      let vs2 = document.getElementById('vert-slider-2');
+
+      splideOne.on("moved", (newIdx, oldIdx) => {
+        if(newIdx == 1) {
+          vs2.classList.remove('doubt');
+          vs2.classList.add('arrows-enabled');
+          splideOne.options = { autoplay: false };
+          splideTwo.options = { pagination: true };
+        } else {
+          vs2.classList.add('doubt');
+          vs2.classList.remove('arrows-enabled');
+          splideTwo.options = { pagination: false };
+        }
+      })
+    </script>
 {{ partial "footer.html" }}
