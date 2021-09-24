@@ -77,6 +77,10 @@ section h2 {
   color: #71a230;
 }
 
+#nav-signup {
+    color: white !important;
+}
+
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
@@ -165,7 +169,11 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  font-size: 50px;
+  font-size: 48px;
+  font-family: 'Bitter', 'Helvetica', 'Arial', 'sans-serif';
+}
+header.masthead .header-content h1 strong {
+  font-weight: 500;
 }
 
 header.masthead .device-container {
@@ -189,7 +197,7 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
   header.masthead .device-container {
     max-width: 325px;
