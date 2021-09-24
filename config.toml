@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = ""
 theme = "hugo-gingko"
 uglyURLs = true
+[markup.goldmark.renderer]
+  unsafe= true
 [menu]
   [[menu.mainmenu]]
     identifier = "pricing"
@@ -14,7 +16,7 @@ uglyURLs = true
     name = "FAQ"
     url = "https://docs.gingkowriter.com"
     weight = 20
-[[menu.mainmenu]]
+  [[menu.mainmenu]]
     identifier = "login"
     name = "Login"
     url = "https://app.gingkowriter.com/login"

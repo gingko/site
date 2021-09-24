@@ -51,7 +51,7 @@ section {
   padding: 90px 0;
 }
 
-section h2 {
+section h2.big {
   font-size: 50px;
 }
 
@@ -435,6 +435,28 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none;
 }
 
+.static-footer {
+  padding: 60px 20px 40px 20px;
+  line-height: 32px;
+  user-select: none;
+  text-align: left;
+}
+.footer-groups {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-link-group {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  padding: 0;
+}
+.footer-header {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
 .bg-primary {
   background: #8cc63f;
   background: -webkit-linear-gradient(#8cc63f, #7fb636);
