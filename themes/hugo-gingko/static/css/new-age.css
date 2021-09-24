@@ -494,6 +494,47 @@ section.comparison {
   margin: 5px;
 }
 
+#prices {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  #prices {
+    flex-direction: row;
+  }
+}
+.price-box {
+  flex: 1 1 0;
+  text-align: center;
+  padding: 1.4rem;
+  background: #f1f9ff;
+  border: 2px solid #c0e2fb;
+  border-bottom: 2px solid #9ac1dc;
+  border-radius: 10px;
+  box-shadow: 1px 2px 12px rgba(0,0,0,5%);
+}
+#free-trial-price {
+  border: 2px solid #f0f0fa;
+  border-bottom: 2px solid #dcdcdf;
+  background: #fdfdff;
+}
+.price-line {
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.price-number {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.price-info {
+  font-size: 80%;
+  margin-bottom: 1.5rem;
+  color: #999;
+}
+
 .btn-table {
   background: hsl(217, 58%, 26%);
   border-color: hsla(209, 61%, 23%, 1);

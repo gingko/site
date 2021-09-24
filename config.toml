@@ -2,12 +2,20 @@ baseURL = "https://gingkowriter.com/"
 languageCode = "en-us"
 title = ""
 theme = "hugo-gingko"
+uglyURLs = true
 [menu]
+  [[menu.mainmenu]]
+    identifier = "pricing"
+    name = "Pricing"
+    url = "/pricing.html"
+    weight = 10
   [[menu.mainmenu]]
     identifier = "faq"
     name = "FAQ"
     url = "https://docs.gingkowriter.com"
-  [[menu.mainmenu]]
+    weight = 20
+[[menu.mainmenu]]
     identifier = "login"
     name = "Login"
     url = "https://app.gingkowriter.com/login"
+    weight = 30
