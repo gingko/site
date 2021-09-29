@@ -612,3 +612,7 @@ span.compare-y {
   font-size: 140%;
   font-weight: bold;
 }
+
+.my-features img, .my-features video {
+  box-shadow: 0px 1px 2px black, 1px 1px 10px rgb(0 0 0 / 24%);
+}
