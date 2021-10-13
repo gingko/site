@@ -183,7 +183,7 @@ header.masthead .device-container .screen img {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 75vh;
+    height: 30rem;
     padding-top: 0;
     padding-bottom: 0;
   }
