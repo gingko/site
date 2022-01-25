@@ -496,6 +496,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+section.testimonials {
+  padding-bottom: 40px;
+}
+
 section.testimonials img.img-fluid {
   border: 4px solid #8c8c8c;
   box-sizing: content-box;
