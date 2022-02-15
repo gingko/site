@@ -16,12 +16,14 @@ We collect anonymous visitor information before you signup/login (pages visited,
 On signing up, we also collect your email address. We never share your email address with 3rd parties, except for the two services we use to communicate with you ([Mailerlite](https://mailerlite.com) for newsletters &amp; [SendGrid](https://sendgrid.com) for 'forgot password' emails and the like).
 
 ### Newsletters
-You can unsubscribe from our newsletters with one click. Opt-out newsletters are often considered a "dark pattern", but we send them so infrequently (with gaps of 4-6 months between, sometimes more), that we decided to make this opt-out rather than include an extra signup step.
+If you opt-in to receive newsletters when signing up, we'll send you a "welcome sequence" of emails (around 6 of them). We'll also send you product updates (every couple months, or even less frequently). Unsubscribing is a one-click process.
+
+NOTE: We used to have an "opt-out" approach in the past, because the gaps between emails were often of a year or more. If you receive an email from us that you didn't want or expect, the fastest way to prevent that is to click the Unsubscribe link in that email.
 
 ### Your Writing is Private
 We will never access, view, or sell *anything* you write on the platform.
 
-We may ask for *your permission* to do so if, for example, it would help us to provide you customer support. But you do not need to grant it, and we have tools in place to help you without viewing your writing.
+We may ask for *your permission* to do access your documents if, for example, it would help us to provide you customer support. But you do not need to grant it, and we have tools in place to help you without viewing your writing.
 
 ### Usage tracking
 We use [LogRocket](https://logrocket.com) to track what **features** you use, and to see where people are getting stuck/confused. **ALL** your writing (even document titles) is masked in this case, and we do not (and cannot) use it to see what is written. Nor is it sent or stored anywhere except inside our secure database.
