@@ -161,9 +161,8 @@
         <div class="row">
           <div class="col-lg-12 mx-auto">
             <h2 id="more-testimonials" class="text-center">More Testimonials</h2>
-            <script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
-            <iframe id="testimonialto-gingko-writer-light" src="https://embed.testimonial.to/w/gingko-writer?theme=light&card=large" frameborder="0" scrolling="no" width="100%"></iframe>
-            <script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-gingko-writer-light");</script>
+            <iframe src="" id="testimonialto-gingko-writer-light" data-src="https://embed.testimonial.to/w/gingko-writer?theme=light&card=large" frameborder="0" scrolling="no" width="100%"></iframe>
+            <script>let script1=document.createElement("script");script1.setAttribute("type", "text/javascript");script1.setAttribute("src", "https://testimonial.to/js/iframeResizer.min.js");script1.onload=()=>{window.iFrameResize({log: false, checkOrigin: false}, "#testimonialto-gingko-writer-light"); function deferIframe(){var iframeElem=document.getElementById('testimonialto-gingko-writer-light'); iframeElem.setAttribute('src',iframeElem.getAttribute('data-src'));}window.onload=deferIframe;};document.body.appendChild(script1);</script>
           </div>
         </div>
       </div>
