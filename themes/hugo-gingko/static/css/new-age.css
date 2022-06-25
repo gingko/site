@@ -679,6 +679,17 @@ span.compare-y {
 .content p {
   white-space: pre-line;
 }
+.content a {
+  color: #5d5dff;
+}
+.content .twitter-attach {
+  max-width: 100%;
+  border-radius: 12px;
+  opacity: 0.75;
+}
+.content .twitter-attach:hover {
+  opacity: 1;
+}
 .bottom-row .twitter-likes, .bottom-row .date {
   color: hsl(0, 0%, 50%);
   font-size: 0.875rem;
