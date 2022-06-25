@@ -160,7 +160,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto">
-            <div id="my-testimonial-container">
+            <h2 id="more-testimonials" class="text-center">More Testimonials</h2>
+            <br>
+
+            <div id="my-testimonial-container" data-masonry='{ "itemSelector": ".testimonial-card", "columnWidth": 450, "gutter": 16, "fitWidth": true }'>
+
+              <div class="testimonial-card" style="padding: 0;">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/723991886?h=fce1c1f6ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 8px;" title="john-ryan-testimonial"></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+              </div>
             <div class="testimonial-card">
               <div class="top-row">
                 <div class="avatar">
@@ -208,6 +216,31 @@
             </div>
 
             <div class="testimonial-card">
+              <div class="top-row">
+                <div class="avatar">
+                  <img src="img/people/michael-marshall-smith.png"/>
+                </div>
+                <div class="name-block">
+                  <h6><a href="https://twitter.com/ememess">Michael Marshall Smith</a></h6>
+                  <p><a href="https://twitter.com/ememess">@ememess</a></p>
+                </div>
+                <div class="source-icon">
+                  <a href="https://twitter.com/ememess/status/843170739507380225">
+                    <img src="img/twitter-logo.svg"/>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <p style="--link-color:#5d5dff;">I can recommend <a href="https://twitter.com/gingkoapp" target="_blank" rel="noopener noreferrer">@gingkoapp</a> — very cool web tool for structuring prose. Got me through the third act of the last novel...</p>
+              </div>
+              <div class="bottom-row">
+                <a class="twitter-likes" href="https://twitter.com/ememess/status/843170739507380225"><img src="img/heart.svg"/>9</a>
+                <a class="date" href="https://twitter.com/ememess/status/843170739507380225">Jan 31, 2022</a>
+              </div>
+            </div>
+
+
+              <div class="testimonial-card">
               <div class="top-row">
                 <div class="avatar">
                   <img src="img/people/pull-draw.png"/>
@@ -1435,12 +1468,10 @@
 
             <!-- ======================== -->
 <!-- ======================== -->
-            <h2 id="more-testimonials" class="text-center">More Testimonials</h2>
             <iframe src="" id="testimonialto-gingko-writer-light" data-src="https://embed.testimonial.to/w/gingko-writer?theme=light&card=large" frameborder="0" scrolling="no" width="100%"></iframe>
             <script>let script1=document.createElement("script");script1.setAttribute("type", "text/javascript");script1.setAttribute("src", "https://testimonial.to/js/iframeResizer.min.js");script1.onload=()=>{window.iFrameResize({log: false, checkOrigin: false}, "#testimonialto-gingko-writer-light"); function deferIframe(){var iframeElem=document.getElementById('testimonialto-gingko-writer-light'); iframeElem.setAttribute('src',iframeElem.getAttribute('data-src'));}window.onload=deferIframe;};document.body.appendChild(script1);</script>
           </div>
         </div>
       </div>
     </section>
-
 {{ partial "footer.html" }}

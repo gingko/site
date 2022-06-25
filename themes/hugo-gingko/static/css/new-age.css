@@ -622,7 +622,7 @@ span.compare-y {
 
 /* TESTIMONIAL CARDS */
 #my-testimonial-container {
-  display: grid;
+  margin: 0 auto;
 }
 .testimonial-card {
   display: flex;
@@ -631,6 +631,7 @@ span.compare-y {
   border: 1px solid lightgray;
   border-radius: 8px;
   padding: 1.25rem;
+  margin-bottom: 12px;
   box-shadow: 0px 1px 3px hsla(0, 0%, 0%, 0.1);
 }
 .testimonial-card:hover {
@@ -651,7 +652,7 @@ span.compare-y {
 .top-row h6 a:hover {
   text-decoration: underline;
 }
-.top-row p {
+.top-row p, .top-row p a {
   font-size: .875rem;
   color: hsl(0, 0%, 30%);
 }
@@ -678,11 +679,17 @@ span.compare-y {
 .content p {
   white-space: pre-line;
 }
-.date {
+.bottom-row .twitter-likes, .bottom-row .date {
   color: hsl(0, 0%, 50%);
   font-size: 0.875rem;
 }
-.date:hover {
+.bottom-row .twitter-likes {
+  margin-right: 10px;
+}
+.bottom-row .twitter-likes img {
+  margin-right: 4px;
+}
+.bottom-row .date:hover {
   color: hsl(0, 0%, 50%);
   text-decoration: underline;
 }
