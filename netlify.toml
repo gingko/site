@@ -25,3 +25,23 @@
 [[redirects]]
   from = "/upgrade.html"
   to = "/pricing.html"
+
+[[redirects]]
+  from = "/faq"
+  to = "https://docs.gingkowriter.com"
+
+[[redirects]]
+  from = "/faq.html"
+  to = "https://docs.gingkowriter.com"
+
+[[redirects]]
+  from = "/upgrade-*"
+  to = "/pricing.html"
+
+[[redirects]]
+  from = "/newsletter-signup*"
+  to = "/"
+
+[[redirects]]
+  from = "/resubscribe*"
+  to = "/"
