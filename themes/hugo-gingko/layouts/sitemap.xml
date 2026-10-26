@@ -1,0 +1,7 @@
+{{- /* Pretty URLs (no .html), matching what Netlify serves and what Google indexes. */ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range .Pages }}
+  <url><loc>{{ partial "canonical.html" . }}</loc></url>
+  {{- end }}
+</urlset>

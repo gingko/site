@@ -1,5 +1,6 @@
 ---
 title: "Refunds"
+description: "Gingko Writer's refund policy: just ask, and you'll get a refund."
 date: 2022-11-09T10:52:27-05:00
 ---
 

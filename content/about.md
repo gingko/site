@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Why Gingko Writer exists: founder Adriano Ferrari on building a card-based writing tool after getting stuck writing his PhD thesis."
 date: 2018-06-29T12:22:24-04:00
 ---
 
@@ -24,5 +25,5 @@ I hope it helps you get your thoughts and ideas out of the page, and into the wo
 All the best,<br>
 Adriano Ferrari
 
-<img style="border-radius: 100%;box-shadow: 0px 2px 2px;" src="img/adri-headshot.jpg" width="150px"/>
+<img style="border-radius: 100%;box-shadow: 0px 2px 2px;" src="img/adri-headshot.jpg" alt="Adriano Ferrari" width="150px"/>
 

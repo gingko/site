@@ -2,11 +2,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    {{- $title := cond .IsHome .Site.Params.homeTitle (printf "%s | Gingko Writer" .Title) }}
+    {{- $description := .Description | default .Site.Params.description }}
+    {{- $canonical := partial "canonical.html" . }}
+    <meta name="description" content="{{ $description }}">
+    <link rel="canonical" href="{{ $canonical }}">
     <link rel="shortcut icon" href="{{ "img/leaf32.png" | relURL }}">
 
-    <title>Gingko Writer {{if .Title}} - {{.Title}}{{end}}</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Gingko Writer">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta property="og:url" content="{{ $canonical }}">
+    <meta property="og:image" content="{{ .Site.Params.image | absURL }}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>{{ $title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "css/bootstrap.min.css" | relURL }}" rel="stylesheet">

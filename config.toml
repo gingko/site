@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = ""
 theme = "hugo-gingko"
 uglyURLs = true
+disableKinds = ["taxonomy", "term", "RSS"]
 [markup.goldmark.parser]
   autoHeadingIDType = "blackfriday"
 [markup.goldmark.renderer]
@@ -23,3 +24,7 @@ uglyURLs = true
     name = "Login"
     url = "https://app.gingkowriter.com/login"
     weight = 30
+[params]
+  homeTitle = "Gingko Writer: Writing Software from Outline to First Draft"
+  description = "Gingko Writer is a card-based writing app for novels, theses and other long documents. Go from notes to outline to first draft in one view. Free 14-day trial."
+  image = "img/screenshot-alien-screenplay.png"

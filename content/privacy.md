@@ -1,5 +1,6 @@
 ---
 title: "Privacy"
+description: "How Gingko Writer collects, uses and protects your data, starting with a plain-language summary."
 date: 2021-09-24T13:46:20-04:00
 ---
 
