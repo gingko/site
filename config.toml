@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = ""
 theme = "hugo-gingko"
 uglyURLs = true
+[markup.goldmark.parser]
+  autoHeadingIDType = "blackfriday"
 [markup.goldmark.renderer]
   unsafe= true
 [menu]
