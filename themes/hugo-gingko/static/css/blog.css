@@ -1,0 +1,140 @@
+/* /blog: readable long-form text inside the site's Bootstrap layout. */
+.blog,
+.blog-post {
+  max-width: 720px;
+  padding-top: 120px; /* clear the fixed navbar */
+}
+
+.blog h1,
+.blog-post h1 {
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.blog-post h2,
+.blog-post h3,
+.blog-post h4 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.blog-post li {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.blog-post img,
+.blog-post iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-post iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.blog-post figure {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.blog-post figcaption {
+  font-size: 15px;
+  color: #777;
+  margin-top: 8px;
+}
+
+.blog-post blockquote {
+  border-left: 3px solid #8cc63f;
+  padding-left: 20px;
+  margin: 30px 0;
+  color: #555;
+}
+
+.blog-post hr {
+  margin: 40px auto;
+}
+
+.blog-meta {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(34, 34, 34, 0.1);
+  font-size: 15px;
+  color: #777;
+}
+
+.blog-topic h2 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+.blog-index {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-index li {
+  margin-bottom: 18px;
+}
+
+.blog-index a {
+  font-size: 20px;
+}
+
+.blog-index p {
+  font-size: 16px;
+  color: #666;
+  margin: 4px 0 0;
+}
+
+.blog-triage {
+  display: block;
+  font-size: 14px;
+  color: #999;
+}
+
+.blog-count {
+  font-size: 16px;
+  color: #999;
+}
+
+.blog-featured {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 30px;
+}
+
+/* Index entries: thumbnail on the left, title/description on the right. */
+.blog-index li {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.blog-entry {
+  min-width: 0; /* let long titles wrap instead of overflowing */
+}
+
+.blog-thumb {
+  flex: 0 0 96px;
+  height: 96px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #f1f5eb;
+}
+
+.blog-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .blog-thumb {
+    flex-basis: 64px;
+    height: 64px;
+  }
+}

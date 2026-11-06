@@ -14,7 +14,7 @@
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:description" content="{{ $description }}">
     <meta property="og:url" content="{{ $canonical }}">
-    <meta property="og:image" content="{{ .Site.Params.image | absURL }}">
+    <meta property="og:image" content="{{ .Params.image | default .Site.Params.image | absURL }}">
     <meta name="twitter:card" content="summary_large_image">
 
     <title>{{ $title }}</title>
@@ -38,6 +38,12 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ "css/new-age.css" | relURL }}" rel="stylesheet">
+    {{- if eq .Section "blog" }}
+    <link href="{{ "css/blog.css" | relURL }}" rel="stylesheet">
+    {{- with site.GetPage "/blog" }}{{ with .OutputFormats.Get "rss" }}
+    <link rel="alternate" type="application/rss+xml" title="Gingko Writer blog" href="{{ .Permalink }}">
+    {{- end }}{{ end }}
+    {{- end }}
 
     <!-- Plausible analytics -->
     <script defer data-domain="gingkowriter.com" src="https://plausible.io/js/plausible.js"></script>
@@ -55,7 +61,7 @@
           <ul class="navbar-nav ml-auto">
             {{ range .Site.Menus.mainmenu }}
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ .URL | replaceRE `/index\.html$` "/" }}">{{ .Name }}</a>
             </li>
             {{ end }}
           </ul>

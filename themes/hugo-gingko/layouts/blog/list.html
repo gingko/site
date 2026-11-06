@@ -1,0 +1,80 @@
+{{ partial "header.html" . }}
+
+{{- /* Subject index, not a reverse-chronological feed: posts are grouped by
+       their `topic` front matter and sorted by title within each group.
+       Groups follow the `topics` list in content/blog/_index.md; topics not
+       listed there come after, A–Z. */ -}}
+<section class="container blog">
+  <h1>{{ .Title }}</h1>
+  <div class="blog-intro">{{ .Content }}</div>
+
+  {{- $order := .Params.topics | default slice }}
+  {{- $extra := slice }}
+  {{- range .Pages }}
+    {{- with .Params.topic }}
+      {{- if not (or (in $order .) (in $extra .)) }}{{ $extra = $extra | append . }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- $pages := .Pages.ByTitle }}
+  {{- range $topic := $order | append (sort $extra) }}
+  {{- $items := slice }}
+  {{- range $pages }}{{ if eq .Params.topic $topic }}{{ $items = $items | append . }}{{ end }}{{ end }}
+  {{- with $items }}
+  <div class="blog-topic">
+    <h2>{{ $topic }}</h2>
+    <ul class="blog-index">
+      {{ range . }}
+      <li>
+        {{ partial "blog-thumb.html" . }}
+        <div class="blog-entry">
+          <a href="{{ partial "canonical.html" . }}">{{ .Title }}</a>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{- end }}
+  {{- end }}
+
+  {{- /* Posts without a topic yet. While triaging the old WordPress import
+         (all drafts, visible only with `hugo server -D`), split them by the
+         `triage` param: keep → Shortlist, scrap → Scrap, else Undecided.
+         Newest first, with date and old WP category.
+         Filtered with if/eq inside a range over .Pages (not `where`), so
+         `hugo server` re-renders this list when a post's params change. */}}
+  {{- $buckets := slice
+        (dict "key" "keep" "title" "Shortlist")
+        (dict "key" "" "title" "Undecided")
+        (dict "key" "scrap" "title" "Scrap") }}
+  {{- $all := .Pages.ByDate.Reverse }}
+  {{- range $buckets }}
+  {{- $key := .key }}
+  {{- $title := .title }}
+  {{- $items := slice }}
+  {{- range $all }}
+    {{- if and (not .Params.topic) (eq (.Params.triage | default "") $key) }}
+      {{- $items = $items | append . }}
+    {{- end }}
+  {{- end }}
+  {{- with $items }}
+  <div class="blog-topic">
+    <h2>{{ $title }} <small class="blog-count">{{ len . }}</small></h2>
+    <ul class="blog-index">
+      {{ range . }}
+      <li>
+        {{ partial "blog-thumb.html" . }}
+        <div class="blog-entry">
+        <a href="{{ partial "canonical.html" . }}">{{ .Title }}</a>
+        <span class="blog-triage">{{ .Date.Format "Jan 2006" }}{{ with .Params.wp_categories }} · {{ delimit . ", " }}{{ end }}{{ if eq .Params.wp_status "draft" }} · WP draft{{ end }}</span>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{- end }}
+  {{- end }}
+</section>
+
+{{ partial "footer.html" . }}

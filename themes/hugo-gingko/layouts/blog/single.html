@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+<article class="container blog-post">
+  <h1>{{ .Title }}</h1>
+  {{- /* Featured image (`image`) on top of the post, unless the body already
+         shows it or `hide_featured: true` (e.g. a video's own thumbnail).
+         It's still used for the /blog index thumbnail and og:image. */}}
+  {{- with .Params.image }}
+  {{- if not (or $.Params.hide_featured (strings.Contains $.Content .)) }}
+  <img class="blog-featured" src="{{ . | relURL }}" alt="">
+  {{- end }}
+  {{- end }}
+  {{ .Content }}
+  <p class="blog-meta">
+    {{ with .Params.topic }}{{ . }} · {{ end }}First published {{ .Date.Format "January 2006" }}
+    · <a href="{{ "blog/" | relURL }}">More essays</a>
+  </p>
+</article>
+
+{{ partial "footer.html" . }}

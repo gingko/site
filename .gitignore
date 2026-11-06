@@ -1,3 +1,5 @@
 .netlify
 .idea
 .hugo_build.lock
+.preview/
+public/

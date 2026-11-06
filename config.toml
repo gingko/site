@@ -3,7 +3,11 @@ languageCode = "en-us"
 title = ""
 theme = "hugo-gingko"
 uglyURLs = true
-disableKinds = ["taxonomy", "term", "RSS"]
+disableKinds = ["taxonomy", "term"]
+[outputs]
+  # RSS only for the blog section (/blog/index.xml).
+  home = ["HTML"]
+  section = ["HTML", "RSS"]
 [markup.goldmark.parser]
   autoHeadingIDType = "blackfriday"
 [markup.goldmark.renderer]

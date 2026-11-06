@@ -1,0 +1,20 @@
+{{- /* Thumbnail for a post on the /blog index: the `image` front matter
+       (featured image), else the first usable <img> in the post body, else
+       an empty tile so titles stay aligned. Only local files that exist in
+       static/ count, which skips lost images and external hotlinks.
+       Images live in static/, so they're scaled by CSS (object-fit), not
+       resized by Hugo. */ -}}
+{{- $src := "" -}}
+{{- $candidates := slice -}}
+{{- with .Params.image }}{{ $candidates = $candidates | append . }}{{ end -}}
+{{- range findRESubmatch `<img[^>]+src="([^"]+)"` .Content -}}
+  {{- $candidates = $candidates | append (index . 1) -}}
+{{- end -}}
+{{- range $candidates -}}
+  {{- if and (not $src) (hasPrefix . "/") (fileExists (path.Join "static" .)) -}}
+    {{- $src = . -}}
+  {{- end -}}
+{{- end -}}
+<a class="blog-thumb" href="{{ partial "canonical.html" . }}" tabindex="-1" aria-hidden="true">
+  {{- with $src }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end -}}
+</a>

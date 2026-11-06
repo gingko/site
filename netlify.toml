@@ -1,3 +1,102 @@
+# Old WordPress blog (blog.gingkoapp.com, 2013–2018) → /blog. Host-scoped and forced,
+# so they only apply on that domain alias. Post slugs are unchanged; posts not
+# featured on /blog are published hidden (build.list = never) so these never 404.
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/wp-content/uploads/:y/:m/:file"
+  to = "https://gingkowriter.com/blog/images/:file"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/:y/:m/:d/:slug"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/:y/:m/:d/:slug/*"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/essays/:slug"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/essays/:slug/*"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/feed"
+  to = "https://gingkowriter.com/blog/index.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/feed/*"
+  to = "https://gingkowriter.com/blog/index.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://blog.gingkoapp.com/*"
+  to = "https://gingkowriter.com/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/wp-content/uploads/:y/:m/:file"
+  to = "https://gingkowriter.com/blog/images/:file"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/:y/:m/:d/:slug"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/:y/:m/:d/:slug/*"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/essays/:slug"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/essays/:slug/*"
+  to = "https://gingkowriter.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/feed"
+  to = "https://gingkowriter.com/blog/index.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/feed/*"
+  to = "https://gingkowriter.com/blog/index.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://blog.gingkoapp.com/*"
+  to = "https://gingkowriter.com/blog/"
+  status = 301
+  force = true
 [[redirects]]
   from = "/download/win"
   to = "https://github.com/gingko/client/releases/download/v2.4.15/Gingko-Setup-2.4.15.exe"
