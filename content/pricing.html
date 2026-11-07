@@ -3,32 +3,87 @@ title: "Pricing"
 description: "Gingko Writer costs $12.75/month or $117/year. Start with a free 14-day trial, no credit card required. Cancel anytime, refunds on request."
 date: 2021-09-24T11:49:34-04:00
 ---
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  .pb { max-width: 640px; margin: 0 auto; padding: 3rem 0 5rem; font-family: "Source Serif 4", Georgia, serif; font-size: 1.2rem; line-height: 1.7; color: #2b2b2b; }
+  .pb h1 { font-family: inherit; font-weight: 600; font-size: 2.4rem; line-height: 1.2; margin-bottom: 1.5rem; }
+  .pb .kicker { font-family: -apple-system, system-ui, sans-serif; text-transform: uppercase; letter-spacing: .15em; font-size: .75rem; color: #999; margin-bottom: .6rem; }
+  .pb p { margin-bottom: 1.2rem; }
+  .pb .ledger { margin: 2.2rem 0; border-top: 2px solid #2b2b2b; border-bottom: 2px solid #2b2b2b; padding: .4rem 0; }
+  .pb .ledger div { display: flex; justify-content: space-between; align-items: baseline; padding: .6rem 0; border-bottom: 1px dotted #bbb; }
+  .pb .ledger div:last-child { border-bottom: none; }
+  .pb .ledger .what { font-weight: 600; }
+  .pb .ledger .what em { font-weight: 400; color: #777; font-size: 1rem; }
+  .pb .ledger .cost { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; padding-left: 1rem; }
+  .pb ul.promises { padding-left: 1.2rem; }
+  .pb ul.promises li { margin-bottom: .5rem; }
+  .pb .cta { display: inline-block; font-family: -apple-system, system-ui, sans-serif; background: linear-gradient(#7cb63b, #5f9226); color: #fff; padding: .85rem 1.8rem; border: 1px solid #52801f; border-bottom-width: 3px; border-radius: 8px; box-shadow: 0 2px 6px rgba(60,100,20,.25), inset 0 1px 0 rgba(255,255,255,.25); text-shadow: 0 1px 0 rgba(0,0,0,.15); font-size: 1rem; font-weight: 700; text-decoration: none; margin: .6rem 0 .3rem; transition: transform .08s, box-shadow .08s; }
+  .pb .cta:hover { background: linear-gradient(#86c044, #66992b); color: #fff; text-decoration: none; transform: translateY(-1px); box-shadow: 0 4px 10px rgba(60,100,20,.3), inset 0 1px 0 rgba(255,255,255,.25); }
+  .pb .cta:active { transform: translateY(1px); border-bottom-width: 1px; margin-top: calc(.6rem + 2px); box-shadow: 0 1px 2px rgba(60,100,20,.2); }
+  .pb .sub { font-family: -apple-system, system-ui, sans-serif; font-size: .85rem; color: #888; }
+  .pb .ask { margin-top: 2.5rem; }
+  .pb .sig { display: flex; align-items: center; gap: 1rem; margin-top: 2.5rem; }
+  .pb .sig img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
+  .pb .sig .name { font-style: italic; }
+  .pb blockquote { border-left: 3px solid #e2e2e2; padding-left: 1.2rem; margin: 2rem 0; font-style: italic; color: #555; }
+  .pb blockquote p { margin-bottom: .4rem; }
+  .pb blockquote .by { font-style: normal; font-family: -apple-system, system-ui, sans-serif; font-size: .8rem; color: #999; }
+</style>
 
-<section>
-    <h1 style="text-align: center">Pricing</h1>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-        <div id="prices">
-            <div class="price-box">
-                <h3>Pay Yearly</h3>
-                <div class="price-line"><span class="price-number">$9.75</span> per month</div>
-                <div class="price-info">$117 billed once per year, save $36</div>
-                <a href="https://app.gingkowriter.com/signup" class="btn btn-outline btn-xl js-scroll-trigger plausible-event-name=Start+Trial+Clicked">Signup</a>
-            </div>
-            <div class="price-box">
-                <h3>Pay Monthly</h3>
-                <div class="price-line"><span class="price-number">$12.75</span> per month</div>
-                <div class="price-info">Cancel anytime, no-questions refunds</div>
-                <a href="https://app.gingkowriter.com/signup" class="btn btn-outline btn-xl js-scroll-trigger plausible-event-name=Start+Trial+Clicked">Signup</a>
-            </div>
-            <div id="free-trial-price" class="price-box">
-                <h3>Free Trial</h3>
-                <div class="price-line"><span class="price-number">$0</span> for 14 days</div>
-                <div class="price-info">No credit card required</div>
-                <a href="https://app.gingkowriter.com/signup" class="btn btn-outline btn-xl js-scroll-trigger plausible-event-name=Start+Trial+Clicked">Try it Free</a>
-            </div>
-        </div>
-    </div>
-</section>
+<article class="pb">
+  <div class="kicker">Pricing</div>
+  <h1>What It Costs, and Why</h1>
+
+  <p>Gingko Writer has one plan. There are no tiers or add-ons, and nothing is held back for a "pro" version. You get the whole tool.</p>
+
+  <div class="ledger">
+    <div><span class="what">Free trial <em>(14 days, no card)</em></span><span class="cost">$0</span></div>
+    <div><span class="what">Monthly <em>(cancel anytime)</em></span><span class="cost">$12.75 / month</span></div>
+    <div><span class="what">Yearly <em>(works out to $9.75/month)</em></span><span class="cost">$117 / year</span></div>
+  </div>
+
+  <p>I've built and run Gingko on my own for over a decade. Your subscription is what keeps it running, and keeps it independent: no investors, no ads, and nothing done with your writing other than storing it for you.</p>
+
+  <p>Here's what I promise in return:</p>
+  <ul class="promises">
+    <li><strong>Your writing is yours.</strong> Export everything to Word, Markdown, OPML or JSON in two clicks, any time.</li>
+    <li><strong>Stable interface.</strong> I make improvements and fix bugs, but the core interactions haven't changed since 2014.</li>
+    <li><strong>No AI.</strong> Gingko is for getting <em>your</em> thoughts onto the page, not an LLM's.</li>
+    <li><strong>A real person.</strong> When you email support, I'm the one who answers.</li>
+    <li><strong>Solid platform.</strong> Gingko's data is backed up every few minutes to multiple secure locations.</li>
+    <li><strong>Refunds on request.</strong> If it isn't working for you, tell me.</li>
+  </ul>
+
+  <blockquote>
+    <p>"I've been using Gingko Writer since…sometime in 2016-ish? It's one of the few tools that I still keep upfront, just about every day. […] It's a joy to use and has managed to stay lean, and bloat-free all this time."</p>
+    <div class="by">John Ryan</div>
+  </blockquote>
+
+  <blockquote>
+    <p>"Since I'm working on one card at a time I do much less editing as I type. Thanks to that focus I just finished writing a 60K-word first draft of a novel."</p>
+    <div class="by">Robert Waugh</div>
+  </blockquote>
+
+  <p>The best way to know if Gingko fits how you think is to write something real in it. Start with the outline of your thesis, your novel, or whatever's been stuck in your head.</p>
+
+  <a href="https://app.gingkowriter.com/signup" class="cta plausible-event-name=Start+Trial+Clicked">Start writing, free for 14 days</a>
+  <div class="sub">Prices adjust for your region at checkout (EUR, GBP, CAD, INR, CNY).</div>
+
+  <p class="ask">Questions about pricing, or anything else?<br><span class="em-wrap" hidden>Email me at <a class="em" data-u="troppus" data-d="moc.retirwokgnig"></a>.</span><noscript>I'd give you my email address here, but it's hidden from spam bots, and showing it needs JavaScript. Use the Help menu in the app, or take a guess (it's the obvious one).</noscript> I read every message, and I'd love to hear what you're working on.</p>
+
+  <div class="sig">
+    <img src="/img/adri-headshot.jpg" alt="Adriano Ferrari">
+    <div><span class="name">Adriano Ferrari</span><br><span class="sub">Maker of Gingko Writer</span></div>
+  </div>
+</article>
+
+<script>
+  // Assemble the email link at runtime so scrapers don't find the address in the HTML.
+  document.querySelectorAll("a.em").forEach(function (a) {
+    var r = function (x) { return x.split("").reverse().join(""); };
+    var addr = r(a.dataset.u) + "@" + r(a.dataset.d);
+    a.href = "mailto:" + addr;
+    a.textContent = addr;
+    a.closest(".em-wrap").hidden = false;
+  });
+</script>
