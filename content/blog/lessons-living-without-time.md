@@ -16,7 +16,7 @@ Here are some fictional diary entries, reconstructed from actual events:
 
 *Six months ago:* My PhD is almost complete! And I finally received my citizenship. Both of those open loops are now closed. I’ll finally have more time to focus!
 
-*Three months ago:* [Gingko’s server crashed](http://blog.gingkoapp.com/news/gingko-server-downtime "Gingko server downtime"). The cause was a silly mistake from two months ago. No big deal. I just brought it back up, and made a note to fix it more thoroughly... when I have the time.
+*Three months ago:* Gingko’s server crashed. The cause was a silly mistake from two months ago. No big deal. I just brought it back up, and made a note to fix it more thoroughly... when I have the time.
 
 *Two months ago:* We noticed a poster for a children’s play that our son would love. Great! I’ll just put a note in my inbox, and process it later. I’ll get tickets... when I have the time.
 
